@@ -1,2 +1,217 @@
 
 /* css */
+.SelfPortrait {
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    background: rgb(26, 155, 196);
+    z-index: -1;
+}
+.Chest {
+    background-color: rgb(218, 54, 54);
+    border-radius: 65px;
+    width: 586px;
+    height: 237px;
+    left: 402px;
+    top: 787px;
+    position: absolute;
+}
+.Face {
+    background-color: rgb(162, 148, 112);
+    width: 480px;
+    height: 586px;
+    left: 452px;
+    top: 219px;
+    border-radius: 175px;
+    position: absolute;
+    z-index: 0;
+}
+.LArm {
+    background-color: black;
+    width: 6px;
+    height: 145px;
+    left: 889px;
+    top: 878px;
+    position: absolute;
+}
+.RArm {
+    background-color: black;
+    width: 6px;
+    height: 145px;
+    left: 499px;
+    top: 878px;
+    position: absolute;
+}
+.EyeRight {
+    background-color: rgb(95, 78, 54); 
+    border: 18px rgb(255, 253, 253) solid;
+    width: 70px;
+    height: 59px;
+    left: 752px;
+    top: 392px;
+    position: absolute;
+}
+.EyeLeft {
+    background-color: rgb(95, 78, 54); 
+    border: 18px rgb(255, 253, 253) solid;
+    width: 70px;
+    height: 59px;
+    left: 550px;
+    top: 392px;
+    position: absolute;
+}
+.Hair {
+    background-color: rgb(84, 69, 46);
+    width: 321px;
+    height: 96px;
+    left: 531px;
+    top: 219px;
+    border-radius: 13px;
+    position: absolute;
+}
+.HairL {
+    background-color: rgb(84, 69, 46);
+    width: 187.77px;
+    height: 92.43px;
+    left: 427px;
+    top: 371.91px;
+    border-radius: 4px;
+    transform-origin: 0 0;
+    transform: rotate(-54deg);
+    position: absolute;
+}
+.HairR {
+    background-color: rgb(84, 69, 46);
+    width: 187.77px;
+    height: 92.43px;
+    left: 846px;
+    top: 220px;
+    border-radius: 4px;
+    transform-origin: 0 0;
+    transform: rotate(54deg);
+    position: absolute;
+}
+.EyebrowRS {
+    background: rgb(84, 69, 46);
+    width: 20px;
+    height: 9px;
+    left: 626px;
+    top: 371px;
+    transform: rotate(19deg);
+    position: absolute;
+}
+.EyebrowR {
+    background: rgb(84, 69, 46);
+    width: 56px;
+    height: 9px;
+    left: 760px;
+    top: 368px;
+    position: absolute;
+}
+.EyebrowL {
+    background: rgb(84, 69, 46);
+    width: 56px;
+    height: 9px;
+    left: 571px;
+    top: 368px;
+    position: absolute;
+}
+.EyebrowLS {
+    background: rgb(84, 69, 46);
+    width: 20px;
+    height: 9px;
+    left: 741px;
+    top: 371px;
+    transform: rotate(-19deg);
+    position: absolute;
+}
+.Nose1 {
+    background-color: rgb(142, 104, 60);
+    width: 11px;
+    height: 76px;
+    left: 682px;
+    top: 451px;
+    border-radius: 4px;
+    transform: rotate(16deg);
+    position: absolute;
+}
+.Nose2 {
+    background-color: rgb(142, 104, 60);
+    width: 53px;
+    height: 10px;
+    left: 679px;
+    top: 517px;
+    border-radius: 6px;
+    position: absolute;
+}
+.MouthOuter {
+    background-color: rgb(193, 120, 97);
+    width: 254px;
+    height: 58px;
+    left: 568px;
+    top: 594px;
+    position: absolute;
+    z-index: 0;
+}
+.MouthInner {
+    background-color: white;
+    width: 199px;
+    height: 14px;
+    left: 592px;
+    top: 616px;
+    position: absolute;
+    z-index: 1;
+}
+.LBeard {
+    background-color: rgb(55, 26, 26);
+    width: 222.37px;
+    height: 117.02px;
+    left: 392px;
+    top: 610px;
+    transform: rotate(48deg);
+    position: absolute;
+
+}
+.RBeard {
+    background-color: rgb(55, 26, 26);
+    width: 222.37px;
+    height: 117.02px;
+    left: 775px;
+    top: 610px;
+    transform: rotate(-48deg);
+    position: absolute;
+}
+.MBeard {
+    background-color: rgb(55, 26, 26);
+    width: 322px;
+    height: 115px;
+    left: 534px;
+    top: 690px;
+    position: absolute;
+}
+.Mustache {
+    background-color: rgb(55, 26, 26);
+    width: 366px;
+    height: 50px;
+    left: 523px;
+    top: 534px;
+    position: absolute;
+}
+.LuBeard {
+    background-color: rgb(55, 26, 26);
+    width: 106px;
+    height: 112px;
+    left: 452px;
+    top: 534px;
+    position: absolute;
+}
+.RuBeard {
+    background-color: rgb(55, 26, 26);
+    width: 95px;
+    height: 112px;
+    left: 837px;
+    top: 534px;
+    position: absolute;
+}
+
+
